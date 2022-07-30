@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'blog',
     'playground',
     'assetmanager',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
