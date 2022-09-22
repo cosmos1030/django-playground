@@ -135,5 +135,6 @@ STATICFILES_FINDERS = (
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_ORIGINS = ['https://8000-cosmos1030-djangoplaygr-nzn988hfc1l.ws-us54.gitpod.io']
+ALLOWED_ORIGINS = ['https://8000-cosmos1030-djangoplaygr-nzn988hfc1l.ws-us54.gitpod.io',
+'https://8080-cosmos1030-djangoplaygr-bhgvphk8pm5.ws-us67.gitpod.io',]
 CSRF_TRUSTED_ORIGINS = ALLOWED_ORIGINS.copy()
